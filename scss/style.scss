@@ -1,20 +1,20 @@
-@use 'custom';
+@import "custom";
 
 //Import components
 
-@use 'components/animations';
-@use 'components/buttons';
-@use 'components/mixins';
-@use 'components/typography';
+@import "components/animations";
+@import "components/buttons";
+@import "components/mixins";
+@import "components/typography";
 
 //import sections
 
-@use 'sections/navbar';
-@use 'sections/intro_section';
-@use 'sections/companies';
-@use 'sections/services';
-@use 'sections/testmonials';
-@use 'sections/faq';
-@use 'sections/portofolio';
-@use 'sections/getstarted';
-@use 'sections/footer';
+@import "sections/navbar";
+@import "sections/intro_section";
+@import "sections/companies";
+@import "sections/services";
+@import "sections/testmonials";
+@import "sections/faq";
+@import "sections/portofolio";
+@import "sections/getstarted";
+@import "sections/footer";
