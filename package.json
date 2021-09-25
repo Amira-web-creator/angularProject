@@ -1,0 +1,35 @@
+{
+  "name": "angularproject",
+  "version": "1.0.0",
+  "description": "Portofolio layout",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "sass --watch scss:assets/css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Amira-web-creator/angularProject.git"
+  },
+  "keywords": [
+    "Portofolio",
+    "layout",
+    "sassLayout",
+    "bootstrab5",
+    "Layout"
+  ],
+  "author": "Amira Maher",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Amira-web-creator/angularProject/issues"
+  },
+  "homepage": "https://github.com/Amira-web-creator/angularProject#readme",
+  "devDependencies": {
+    "sass": "^1.42.1"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.15.4",
+    "autoprefixer": "^10.3.5",
+    "bootstrap": "^5.1.1",
+    "postcss-cli": "^8.3.1"
+  }
+}
